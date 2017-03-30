@@ -447,3 +447,16 @@ body {
 .fa-3x {
     font-size: 3em;
 }
+
+.modalprint
+{
+	color : #333;
+}
+#myiframe
+{
+
+width:600px;
+height:400px;
+
+margin-top:-0.2%;
+}
