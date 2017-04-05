@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jeff- Web Dev</title>
+    <title>Galietti- Web Dev</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -80,7 +80,8 @@
 					<p>Étudiant expérimenté en web développement, et actuellement web développeur / intégrateur, bien que passionné par cet univers, je m'intéresse également à la communication visuelle..</p>
 				</div>
 				<div class="col-lg-3">
-					<p onclick="gotoCV()" style="cursor:pointer"><i class="icon-file"></i> <sm>Voir le CV</sm></p>
+				<button type="button" class="btn btn-primary" style="width:141px;height:42px;background-color:#1abc9c;"><p onclick="gotoCV()" style="cursor:pointer"><i class="icon-file"></i> <sm>Voir le CV</sm></p></button>
+					
 				</div>
 				
 			</div><!--/.row -->
@@ -105,7 +106,7 @@
 				</div>
 				<div class="col-lg-3">
 					<p><sm>DIPLOME EN AOUT</sm><br/>
-					<imp><sm>IN PROGRESS</sm></imp>
+					
 					</p>
 				</div>
 	
@@ -169,8 +170,10 @@
 	<!--SKILLS DESCRIPTION -->
 	<div id="skillswrap">
 		<div class="container">
+		<br><br><br>
 			<div class="row">
 					<div class="col-lg-2 col-lg-offset-1">
+					
 						<h5>SKILLS</h5>
 					</div>
 					<div class="col-lg-3 centered">
@@ -188,7 +191,7 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("HTMLCSS").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 65});
+								var myDoughnut = new Chart(document.getElementById("HTMLCSS").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 75});
 						</script>
 					</div>
 					<div class="col-lg-3 centered">
@@ -206,7 +209,7 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("Javascript").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 65});
+								var myDoughnut = new Chart(document.getElementById("Javascript").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 75});
 						</script>
 					</div>
 					<div class="col-lg-3 centered">
@@ -224,7 +227,7 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("Bootstrap").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 65});
+								var myDoughnut = new Chart(document.getElementById("Bootstrap").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 75});
 						</script>
 					</div>
 					
@@ -243,7 +246,7 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("Angular JS").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 65});
+								var myDoughnut = new Chart(document.getElementById("Angular JS").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 75});
 						</script>
 					</div>
 					<div class="col-lg-3 centered">
@@ -261,7 +264,7 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("Symfony").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 65});
+								var myDoughnut = new Chart(document.getElementById("Symfony").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 75});
 						</script>
 					</div>
 					<div class="col-lg-3 centered">
@@ -279,7 +282,7 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("Java").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 65});
+								var myDoughnut = new Chart(document.getElementById("Java").getContext("2d")).Doughnut(doughnutData,{percentageInnerCutout : 75});
 						</script>
 					</div>
 					
@@ -484,7 +487,7 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Spot Enrichi</h2>
-                                <p class="item-intro text-muted">Localisation du magasin IKEA le plus proche.</p>
+                                <p class="item-intro text-muted">Localisation du magasin IKEA le plus proche Ikea.</p>
                                 <img class="img-responsive img-centered" src="assets/img/spotenrichi.JPG" alt="">
                                 <p class="modalprint"> Le spot enrichi est un format publicitaire présent dans la régie de TF1 , il s'agit de spot publicitaire permettant à l'utilisateur d'intérargir pendant la publicité selon les termes de <a href="http://www.iab.net/media/file/VPAID_2.0_Final_04-10-2012.pdf">la documentation IAB</a>.</p>
                                 <p class="modalprint"> Transmit a l'adserver à travers un Vast et interprété par le Vpaid la coquille de ce code était réalisée en Flash. Suite à la disparition du Flash j'ai travaillé sur cette nouvelle coquille Vpaid en Javascript permettant le passage d'un player Flash à un player HTML5 pour ce format.</p>
